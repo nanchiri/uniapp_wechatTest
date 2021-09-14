@@ -1,0 +1,70 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "微信",
+				"enablePullDownRefresh": true
+			}
+
+		},
+
+		{
+			"path": "pages/adressBook/adressBook",
+			"style": {
+				"navigationBarTitleText": "通讯录",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/find/find",
+			"style": {
+				"navigationBarTitleText": "发现",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false
+			}
+
+		}
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/home/home",
+			"iconPath":"static/wechat.png",
+			"selectedIconPath": "static/wechat_select.png",
+			"text": "微信"
+		}, {
+			"pagePath": "pages/adressBook/adressBook",
+			"iconPath": "static/addressBook.png",
+			"selectedIconPath": "static/addressBook_select.png",
+			"text": "通讯录"
+		}, {
+			"pagePath": "pages/find/find",
+			"iconPath": "static/find.png",
+			"selectedIconPath":"static/find_select.png",
+			"text": "发现"
+		}, {
+			"pagePath": "pages/my/my",
+			"iconPath": "static/my.png",
+			"selectedIconPath": "static/my_select.png",
+			"text": "我"
+		}]
+	}
+
+}
